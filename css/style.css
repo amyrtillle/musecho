@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=PT+Sans+Caption:wght@700&display=swap');
+
+.logo{
+    width: 500px;
+    height: 100px;
+    object-fit: none;
+}
+
+html{
+    width: 100%;
+}
+
+header{
+    background-color: #545454;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+header a{
+	text-decoration: none;
+    font-family: "Baloo Bhaijaan 2";
+	color:white;
+}
+
+.container2 {
+  position: relative;
+}
+
+.caroussel {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #CDA57D;
+    overflow: hidden;
+    opacity: 0;
+    width: 100%;
+    height:0;
+    border-radius: 0 0px 15px 15px;
+    transition: .5s ease;
+}
+
+.container2:hover .overlay {
+    opacity: 100%;
+    bottom: 0;
+    height: 100px;
+}
+
+.text {
+    font-family: "Baloo Bhaijaan 2";
+    font-size: 15px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text a{
+    color: #1c1c1c;
+}
+
+.select_accueil{
+    width: auto;
+    height: 50px;
+    border-radius: 15px;
+    background-color: none;
+    padding-top: 3%;
+    display: block;
+    transition: .5s ease;
+}
+  
+.select_accueil:hover{
+    background-color: #CDA57D;
+    color: #1c1c1c;
+}
+
+.select_product{
+    width: auto;
+    height: 50px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: none;
+    display: block;
+    padding-top: 3%;
+    align-content: center;
+    transition: .5s ease;
+}
+
+.select_product:hover{
+    background-color: #CDA57D;
+    color: #1c1c1c;
+}
+
+.select_panier{
+    width: auto;
+    height: 50px;
+    border-radius: 15px;
+    background-color: none;
+    padding-top: 3%;
+    display: block;
+    transition: .5s ease;
+}
+
+.select_panier:hover{
+    background-color: #CDA57D;
+    color: #1c1c1c;
+}
+
+.select_contact{
+    width: auto;
+    height: 50px;
+    border-radius: 15px;
+    background-color: none;
+    padding-top: 3%;
+    display: block;
+    transition: .5s ease;
+}
+
+.select_contact:hover{
+    background-color: #CDA57D;
+    color: #1c1c1c;
+}
+
+
+footer{
+    background-color: #545454;
+    width: 100%;
+    padding:10px;
+}
+  
+.about{
+    text-align: center;
+    display: block;
+}
+  
+footer p{
+    text-align: center;
+    font-family: "Baloo Bhaijaan 2";
+    color: white;
+    margin-bottom:0;
+    margin-top:0;
+}
+  
+.circle{
+    display: block;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.icon{
+    display:block;
+    width:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+  
+.social{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.about a:link{
+    font-family: "Baloo Bhaijaan 2";
+    text-decoration: none;
+    color: white;
+}
+  
+.about a:hover{
+    text-decoration: underline;
+    color: white;
+}
+  
+.about a:visited{
+  color: white;
+}
+
+.about{
+  color: white;
+}

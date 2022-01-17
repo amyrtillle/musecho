@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Musecho | Contact</title>
+  <link rel="icon" href="./media/Musecho_logo_tab.png"/>
+  
+	<link rel="stylesheet" type="text/css" href="./css/grille.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/contact.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+	<header>
+    <div class="container">
+			<a href="./index.html">
+				<img class="logo" src="./media/Musecho_logo.png" alt="logo_site" > <!--Logo du site-->
+			</a>
+			
+      <div class="row">             
+				<div class="col-3">
+          <a href="./index.html">
+            <div class="select_accueil">Accueil</div>
+          </a>
+        </div>
+      
+        <div class="col-3">
+          <div class="container2">
+            <div class="caroussel">
+              <a href="./shop.html">
+                <div class="select_product">
+                  Nos produits
+                </div>
+              </a>
+            </div>
+            
+            <div class="overlay">
+              <div class="text">
+                <p><a href="./shop2.php">Nos enceintes</a></p>
+                <hr>
+                <p><a href="./shop1.php">Nos amplis</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+				
+				<div class="col-3">
+          <a href="./panier.html">
+            <div class="select_panier">Panier</div>
+          </a>
+        </div>
+				
+				<div class="col-3">
+          <a href="./contact.html">
+            <div class="select_contact">Contact</div>
+          </a>
+        </div>
+		  </div>
+    </div>    
+	</header>
+
+  <form action=" https://real-mmi-grenoble.fr/tmp/testformulaire.php" method="post">
+
+    <h1>Nous contacter</h1>
+
+    <p id=contact>En cas de problème avec votre compte, des questions sur un produit ou un besoin d'aide pour le suivi de votre commande, vous pouvez nous contacter via le formulaire ci-dessous.<br>
+    Notre personnel vous répondra dans les plus brefs délais avec la solution la plus adéquate à votre problème.</p>
+
+    
+    <fieldset id=formulaire>
+      <legend></legend>
+
+      <p>
+        <label for="nom">Nom*</label><br>
+        <input type="text" id="nom" name="user_lastname" required>
+      </p>
+
+      <p>
+        <label for="prenom">Prénom*</label><br>
+        <input type="text" id="prenom" name="user_firstname"  required>
+      </p>
+
+      <p>
+        <label for="adresse_mail">Adresse e-mail*</label><br>
+        <input type="email" id="adresse_mail" name="user_email" placeholder="monadresse@mail.com" required>
+      </p>
+
+      <p>
+        <label for="telephone"></label>Téléphone (facultatif)<br>
+        <input type="tel" id="telephone" name="user_phonenumber" maxlength="10">
+      </p>
+
+      <p>
+        <label for="sujet">Quel est le sujet de votre message ?*</label><br>
+        <select name="sujet" id="sujet" required>
+          <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+          <option value="probleme-compte">Problème avec mon compte</option>
+          <option value="question-produit">Question à propos d’un produit</option>
+          <option value="suivi-commande">Suivi de ma commande</option>
+          <option value="autre">Autre...</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="message"></label>Votre message*<br>
+        <textarea id="message" name="user_message" cols="60" rows="8" placeholder="Bonjour, je vous contacte car..." required></textarea>
+      </p>
+
+      <p>* champs obligatoire</p>
+    </fieldset>
+
+    <fieldset class=button>
+		  <input id="submit" type="submit" value="Envoyer le formulaire"><br>
+		  <input id="reset" type="reset" value="Effacer le formulaire">
+
+	  </fieldset>
+  </form>
+
+  <hr class="info">
+
+  <div id="contactinfo">
+    <h2> <img src="./media/location-pin.svg" class="icon2" alt="logo_location"> Adresse</h2>
+    <p><a href="https://goo.gl/maps/Y6Dsnn5yz8KGe3E26" target="_blank">Aire des Cent Septiers</a></p>
+    <p><a href="https://goo.gl/maps/Y6Dsnn5yz8KGe3E26" target="_blank">86000 Poitiers</a></p>
+
+    <h2><img src="./media/phone.svg" class="icon2" alt="logo_phone"> Téléphone</h2>
+    <p><a href="tel:+33412345678">04-12-34-56-78</a></p>
+
+    <h2> <img src="./media/mail.svg" class="icon2" alt="logo_email"> Email</h2>
+    <p><a href="mailto:contact@musecho.com">contact@musecho.com</a></p>
+
+  </div>
+
+	<footer>
+		<p>Retrouvez nous sur:</p>
+
+		<div class="row social">
+			<div class="col-3" >
+        <a href="http://twitter.com" target="_blank">
+					<img src="./media/twitter.png" class="icon" alt="logo_twitter">
+        </a>
+			</div>
+
+			<div class="col-3" >
+        <a href="http://facebook.com" target="_blank">
+					<img src="./media/facebook.png" class="icon" alt="logo_facebook">
+        </a>
+			</div>
+
+			<div class="col-3" >
+        <a href="http://youtube.com" target="_blank">
+					<img src="./media/youtube.png" class="icon" alt="logo_youtube">
+        </a>
+			</div>
+
+			<div class="col-3" >
+        <a href="http://instagram.com" target="_blank">
+					<img src="./media/instagram.png" class="icon" alt="logo_instagram">
+        </a>
+			</div>
+		</div>
+
+		<span class="about"> 
+      <a href="#">Confidentialités et cookies</a> | <a href="#">Conditions générales</a> | <a href="#">Accessibilité</a> | <a href="#">À propos</a>
+    </span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,134 @@
+.select_contact{
+  width: auto;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #CDA57D;
+  padding-top: 3%;
+  display: block;
+  transition: .5s ease;
+}
+
+.select_contact{
+  color: #1c1c1c;
+}
+
+select#sujet{
+  border-radius: 5px;
+  height: 50px;
+  width: 600px;
+}
+
+body{
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  font-family:"PT Sans Caption";
+  background-color: #f2f2f2;
+}
+
+h1{
+  margin:20px;
+  text-align: center;
+}
+
+div h2{
+  color:#454545;
+
+}
+
+#formulaire{
+  width: 600px;
+  margin-top:20px;
+  border-color:#DEDEDE;
+  background-color:#DEDEDE;
+  border:none;
+  color:black;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+}
+
+textarea{
+  border-radius: 5px;
+  width: 600px;
+  resize: vertical;
+}
+
+input{
+  height:50px ;
+  width: 600px;
+  font-size: 1em;
+  border-radius:5px;
+  border:none;
+  align-content: center;
+}
+
+#submit{
+  background-color:#AF8CF4;
+  border-radius:5px;
+  border-color: #AF8CF4;
+  box-shadow: 5px 5px #545454;
+  margin:20px;
+  color:white;
+}
+
+#reset{
+  background-color:#AF8CF4;
+  border-radius:5px;
+  border-color: #AF8CF4;
+  box-shadow: 5px 5px #545454;
+  margin:20px;
+  color:white;
+}
+
+.button{
+  border:none;
+  text-align: center;
+}
+
+.button :hover{
+  cursor: pointer;
+}
+
+.info{
+  width:600px;
+}
+
+img.icon2{
+  height: 30px;
+  vertical-align: sub;
+  display: inline-flex;
+  font-weight: bold;
+  align-items: center;
+}
+
+#contact{
+  margin:20px;
+  text-align: center;
+  width: 700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#contactinfo{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  color:#737373;
+}
+
+#contactinfo a:link{
+  color: #737373;
+  text-decoration: none;
+}
+
+#contactinfo a:hover{
+  color: #737373;
+  text-decoration: none;
+}
+
+#contactinfo a:visited{
+  color: #737373;
+  text-decoration: none;
+}

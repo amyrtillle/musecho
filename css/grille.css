@@ -1,0 +1,93 @@
+:root {
+	--grid-gutter: 2rem; /* Changer cette valeur pour modifier l'espacement des cases de grille */
+	--grid-maxWidth: 80rem; /* Changer cette valeur pour modifier la largeur max du container de grille */
+}
+
+/*****    /!\ NE PAS MODIFIER LE CODE CI-DESSOUS    *****/
+
+.no-gutter {
+	/* Utiliser cette classe sur les éléments .row pour supprimer les gouttières */
+	--grid-gutter: 0rem;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* Le système de grille à 12 colonnes */
+/* Le détail du fonctionnement sera vu au semestre 2 */
+.row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	margin-left: calc(var(--grid-gutter) / -4);
+	margin-right: calc(var(--grid-gutter) / -4);
+}
+.col {
+	flex: 1;
+}
+.col,
+[class*=" col-"],
+[class^="col-"] {
+	margin: calc(var(--grid-gutter) / 4);
+}
+.col-1 {
+	flex: 0 0 calc((100% / (12 / 1)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 1)) - (var(--grid-gutter) / 2));
+}
+.col-2 {
+	flex: 0 0 calc((100% / (12 / 2)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 2)) - (var(--grid-gutter) / 2));
+}
+.col-3 {
+	flex: 0 0 calc((100% / (12 / 3)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 3)) - (var(--grid-gutter) / 2));
+}
+.col-4 {
+	flex: 0 0 calc((100% / (12 / 4)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 4)) - (var(--grid-gutter) / 2));
+}
+.col-5 {
+	flex: 0 0 calc((100% / (12 / 5)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 5)) - (var(--grid-gutter) / 2));
+}
+.col-6 {
+	flex: 0 0 calc((100% / (12 / 6)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 6)) - (var(--grid-gutter) / 2));
+}
+.col-7 {
+	flex: 0 0 calc((100% / (12 / 7)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 7)) - (var(--grid-gutter) / 2));
+}
+.col-8 {
+	flex: 0 0 calc((100% / (12 / 8)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 8)) - (var(--grid-gutter) / 2));
+}
+.col-9 {
+	flex: 0 0 calc((100% / (12 / 9)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 9)) - (var(--grid-gutter) / 2));
+}
+.col-10 {
+	flex: 0 0 calc((100% / (12 / 10)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 10)) - (var(--grid-gutter) / 2));
+}
+.col-11 {
+	flex: 0 0 calc((100% / (12 / 11)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 11)) - (var(--grid-gutter) / 2));
+}
+.col-12 {
+	flex: 0 0 calc((100% / (12 / 12)) - (var(--grid-gutter) / 2));
+	max-width: calc((100% / (12 / 12)) - (var(--grid-gutter) / 2));
+}
